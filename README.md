@@ -1,3 +1,7 @@
+The Project Durian was developed to classify durian leaf diseases into four categories: Algal Leaf Spot, Leaf Blight, Leaf Spot, and No Disease. The data was entirely managed manually before developing four models for training and testing: SVM, KNN, Naive Bayes, and CNN. The goal was to achieve the highest possible accuracy in classifying durian leaf diseases. The dataset was divided into four classes, each containing 200 images.
+
+The test results showed that the three most accurate models were CNN (64%), KNN (51%), and Naive Bayes (45%), respectively.
+
 from sklearn import svm
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
